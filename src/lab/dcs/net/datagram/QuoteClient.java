@@ -19,7 +19,7 @@ public class QuoteClient {
 
             // send request
         byte[] buf = new byte[256];
-        InetAddress address = InetAddress.getByName("localhost"); //Change to the server IP address
+        InetAddress address = InetAddress.getByName("10.132.71.107"); //Change to the server IP address
         DatagramPacket packet = new DatagramPacket(buf, buf.length, address, 4445);
         socket.send(packet);
     

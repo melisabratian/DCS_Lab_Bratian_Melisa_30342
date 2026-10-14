@@ -9,7 +9,7 @@ public class HttpServer extends Thread
 	//standard port
 	private final static int PORT = 80;
 	
-	private final String iniContext="C:\\Coding\\GitHub Repositories\\DCS_Network_Programming\\Labnet\\src\\lab\\scd\\net\\httpexample";
+	private final String iniContext="C:\\Users\\Melisa\\Desktop\\AN4\\DCS\\lab\\laboratory1\\src\\lab\\scd\\net\\httpexample";
 	private boolean alive;
 	
 	private ServerSocket ss;

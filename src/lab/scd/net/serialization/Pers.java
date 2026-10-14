@@ -3,8 +3,8 @@ package lab.scd.net.serialization;
 import java.io.Serializable;
 
 public class Pers implements Serializable {
-	String nume;
-	//transient String nume;
+	//String nume;
+	transient String nume;
 	int varsta;
 
 	Pers(String n, int v) {

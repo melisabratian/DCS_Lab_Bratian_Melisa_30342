@@ -9,7 +9,7 @@ public class Client {
 	  public static void main(String[] args) throws Exception{
 	       
 	        //conectare la server
-	        Socket s = new Socket(InetAddress.getByName("localhost"),1977);
+	        Socket s = new Socket(InetAddress.getByName("10.132.71.107"),1977);
 	        
 	        //construieste fluxul de iesire
 	        ObjectOutputStream oos = new ObjectOutputStream(s.getOutputStream());
